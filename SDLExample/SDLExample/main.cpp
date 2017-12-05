@@ -6,8 +6,12 @@
 
 /*
 You need to setup the working directory yourself. Here is how it's done:
+0. you can see a drop-down window with Debug or Release text in it and 
+   another drop-down just beside that with x64 or x86 in it. Change it to x86!
 1. Right click on SDLExample project, select Properties.
-2. Configuration Properties / Debugging, select Working Directory and set it to the bin
+2. Configuration Properties / General, set the Windows SDK version to the one what's 
+   in your drop-down menu, otherwise it won't compile
+3. Configuration Properties / Debugging, select Working Directory and set it to the bin
    directory found in the repository.
 
 Note: Notice the 'Configuration' at the top of the window. 
