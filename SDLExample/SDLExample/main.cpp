@@ -5,6 +5,17 @@
 #include "Texture.h"
 
 /*
+You need to setup the working directory yourself. Here is how it's done:
+1. Right click on SDLExample project, select Properties.
+2. Configuration Properties / Debugging, select Working Directory and set it to the bin
+   directory found in the repository.
+
+Note: Notice the 'Configuration' at the top of the window. 
+      If you select 'All Configurations' there, you won't need to set release and 
+      debug mode separately and setup the things above twice.
+*/
+
+/*
 * This is just an example code to help you started. It has design issues, missing classes
 * and smart pointers so don't take it as a stable base.
 * It also has some ideas (Texture class, anyone?) and shows how to use several important
